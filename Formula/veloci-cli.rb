@@ -1,25 +1,25 @@
 class VelociCli < Formula
   desc "Command-line interface for Veloci Redactor: redact secrets and PII from text and structured files"
   homepage "https://github.com/phayes/velociredactor"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/phayes/velociredactor/releases/download/v0.3.1/veloci-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "e40e42e50aaeb383fc4b91caa0fb2138d15eb1d4c49ac66bff069f2e8236cba4"
+      url "https://github.com/phayes/velociredactor/releases/download/v0.3.2/veloci-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "3d709b4d1d9f910b186bf405815e2c8c9ab47b0873bf16c4d178ca6209469f34"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/phayes/velociredactor/releases/download/v0.3.1/veloci-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "aa76946ce2f2f84fa527a9f5943f3cf6c193d4fe6729f2b69e8ce7bcd4ab0e15"
+      url "https://github.com/phayes/velociredactor/releases/download/v0.3.2/veloci-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "22c07605bedc6e8288dceba6c4909c3618d1b2a4fbcf6faad9f2ea5458967b25"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/phayes/velociredactor/releases/download/v0.3.1/veloci-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ff9f157ca1768908b73637ec68833a86cecebc7f3f33c5b4973d7649d61ff8f4"
+      url "https://github.com/phayes/velociredactor/releases/download/v0.3.2/veloci-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5b4f0b66863ddac9759c1361db7e84918f7f3a9d23782161b4fa3f0c268c570f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/phayes/velociredactor/releases/download/v0.3.1/veloci-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b725db4b1a0c01a0c138aecea534e3d1ca5613cbca0be8d1e59f34712bff16c7"
+      url "https://github.com/phayes/velociredactor/releases/download/v0.3.2/veloci-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fa9ff97d5b0ce4f00b00972f2b5bd8362247d6f5fbc712378562ed99aa621d16"
     end
   end
   license "MIT"
