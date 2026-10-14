@@ -1,25 +1,25 @@
 class ArdftsrcRs < Formula
   desc "Command-line wav and flac sample-rate converter powered by ardftsrc."
   homepage "https://github.com/phayes/ardftsrc-rs"
-  version "0.4.3"
+  version "0.4.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.3/ardftsrc-rs-aarch64-apple-darwin.tar.xz"
-      sha256 "5253926d2d3d8a834473eb6f5c2a76a8e8ec96f0b5b15ea1805d5160d568b8f6"
+      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.4/ardftsrc-rs-aarch64-apple-darwin.tar.xz"
+      sha256 "71a5be78207357deaa596b02af107944966dc27195f4f4d06a5bc6120d693d39"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.3/ardftsrc-rs-x86_64-apple-darwin.tar.xz"
-      sha256 "cb8cce41e529ed06cbb1acb4d78945063263c28973dcdf7a173c9b10ad3fed95"
+      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.4/ardftsrc-rs-x86_64-apple-darwin.tar.xz"
+      sha256 "1b1d6da66171227db8ee6bfe3217cdb0046a755fc49598196f6e711176b06142"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.3/ardftsrc-rs-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "50b6f0e7c9723e8efa9459ba623e534a4b00116448ee15dd7503877b6a8d5bf0"
+      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.4/ardftsrc-rs-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8d0fdc7ee63dcecd0aa1921d8e87a82cd0e2880f3103c86a53c82833f3dd8365"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.3/ardftsrc-rs-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7da481ab3b6da623fdef859a96ca820498e346809456b7124a4817e05df93894"
+      url "https://github.com/phayes/ardftsrc-rs/releases/download/v0.4.4/ardftsrc-rs-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7d485fa8ab66c7e5e10607099d1fb5e58f031967268ccb6961af00f00e9df012"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
